@@ -5,9 +5,9 @@ from datetime import date
 
 def send_briefing(briefing_text):
     # your credentials
-    sender_email = "krishna.agarwal3458@gmail.com"
-    app_password = "rqgz xxdr neqx mjxn"
-    receiver_email = "krishna.agarwal8543@gmail.com"  # sending to yourself
+    sender_email = "youremail@gmail.com"
+    app_password = "your_app_password_here"
+    receiver_email = "receiveremail@gmail.com"  # sending to yourself
     
     today = date.today().strftime("%B %d, %Y")
     
